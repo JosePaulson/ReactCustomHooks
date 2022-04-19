@@ -1,8 +1,9 @@
+import UseRefExample from "./components/UseRefExample";
+
 function App() {
     return ( 
-        <div>
-            Hello World!
-            <button className="btn btn-primary">click me</button>
+        <div className="container mt-5">
+            <UseRefExample />
         </div>
      );
 }
