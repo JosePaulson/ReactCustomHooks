@@ -33,7 +33,7 @@ function UseMemoExample() {
             <button 
                 onClick={()=>{
                     setInc(prevState => {
-                        console.log(prevState + 1)
+                        console.log(inc + 1)
                         return prevState + 1
                     })
                 }} 

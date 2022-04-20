@@ -1,3 +1,4 @@
+import UseCallbackExample from "./components/UseCallbackExample";
 import UseMemoExample from "./components/UseMemoExample";
 import UseRefExample from "./components/UseRefExample";
 
@@ -11,6 +12,10 @@ function App() {
             <div className="container mt-5">
                 <h2 className="text-center">*****UseMemo*****</h2>
                 <UseMemoExample />
+            </div>
+            <div className="container mt-5">
+                <h2 className="text-center">*****UseCallback*****</h2>
+                <UseCallbackExample />
             </div>
         </>
      );
