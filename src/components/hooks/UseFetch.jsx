@@ -7,8 +7,8 @@ function UseFetch(url, options) {
     useEffect(()=>{
         async function fetchData () {
             try {
-                const response = fetch(url, options)
-                const data = (await response).json()
+                const response = await fetch(url, options)
+                const data = await response.json()
                 setData(data)
                 setIsLoading(false)
             } catch (error) {
